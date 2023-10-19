@@ -106,3 +106,20 @@ video{
     height: 99%;
     position: relative;
 }
+
+.games-page{
+    display: flex;
+    flex-flow: column;
+}
+
+.games-page>div>a>figure{
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.games-page>div>a>figure>img{
+    display: block;
+    margin: auto;
+}
