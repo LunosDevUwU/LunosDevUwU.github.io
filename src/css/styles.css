@@ -1,0 +1,108 @@
+*{
+    background-color: #222222;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.name{
+    font-size: 96px;
+    font-weight: normal;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-left: 16px;
+}
+
+.name .blue{
+    color: #0093C9;
+}
+.name .red{
+    color: #EA0029;
+}
+
+a{
+    text-decoration: none;
+    font-weight: normal;
+    margin-left: 67px;
+    margin-right: 46px;
+}
+
+nav>ul>li>a:hover .blue{
+    color: #0093C9;
+}
+
+nav>ul>li>a:hover .red{
+    color: #EA0029;
+}
+
+nav{
+    position: relative;
+    margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
+    right: 0;
+    width: 100%;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+li{
+    display: flex;
+    align-items: center;
+}
+
+nav>ul>li>a{
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.top-bar{
+    width: 100%;
+    height: 120px;
+    position: sticky;
+    background-color: #222222;
+    left: 0;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    vertical-align: center;
+    justify-content: left;
+    z-index: 1;
+}
+
+.logo-and-name{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.bar-contents{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+
+video{
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 99%;
+    position: relative;
+}
