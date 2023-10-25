@@ -131,14 +131,14 @@ video{
     float: left;
 }
 
-.left-game-title-and-description{
-    float: right;
-}
-
 .right-game-image{
     float: right;
 }
 
-.right-game-title-and-description{
-    float: left;
+.left-game-title, .right-game-title{
+    font-size: 48px;
+}
+
+.left-game-description, .right-game-description{
+    font-size: 24px;
 }
