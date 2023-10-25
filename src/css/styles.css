@@ -131,7 +131,7 @@ video{
     float: left;
 }
 
-.left-game-title-&-description{
+.left-game-title-and-description{
     float: right;
 }
 
@@ -139,6 +139,6 @@ video{
     float: right;
 }
 
-.right-game-title-&-description{
+.right-game-title-and-description{
     float: left;
 }
