@@ -9,6 +9,7 @@
     <title>LunosDev's portfolio</title>
     <link href="/media/img/favicon.png" rel="icon" type="image/png">
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css'>
 </head>
 
 <body>
@@ -164,8 +165,37 @@
     </section>
 
     <section id="DevPage" class="dev-page">
-        <!--<p>asdasd</p>
-        <i class="fi fi-brands-linkedin"></i>-->
+        <div class="about-me">
+            <div class="about-me-title-and-description">
+                <h2 class="about-me-title"><span class="blue">ABOUT</span> <span class="red">ME</span></h2>
+                <p class="about-me-description">asdasd</p>
+            </div>
+            <div class="icons">
+                <a href="">
+                    <i class="fi fi-brands-linkedin"></i>
+                </a>
+                <a href="">
+                    <i class="fi fi-sr-document"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="contact-me">
+            <div class="form-container">
+                <form class="form" action="/src/php/sendEmail.php" method="post">
+                    <span class="heading">Contact me</span>
+                    <input placeholder="Name" type="text" class="input" name="name" required>
+                    <input placeholder="Email" id="mail" type="email" class="input" name="email" required>
+                    <textarea placeholder="I'm all ears" rows="10" cols="30" id="message" name="message" class="textarea" required></textarea>
+                    <div class="button-container">
+                        <button class="send-button" type="submit">Send</button>
+                        <div class="reset-button-container">
+                            <button id="reset-btn" class="reset-button" type="reset">Reset</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
     </section>
 </body>
 </html>
