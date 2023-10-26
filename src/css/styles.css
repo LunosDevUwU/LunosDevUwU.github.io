@@ -127,18 +127,65 @@ video{
     margin: auto;
 }
 
+.right-game, .left-game{
+    display: flex;
+    margin-bottom: 150px;
+}
+
+.right-game{
+    flex-direction: row-reverse;
+}
+
 .left-game-image{
     float: left;
+    margin-right: 50px;
+    margin-left: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .right-game-image{
+    margin-left: 50px;
+    margin-right: 10vw;
     float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-game-title-and-description, .right-game-title-and-description{
+    display: flex;
+    flex-direction: column;
+    width: 45vw;
+    justify-content: center;
+}
+
+.right-game-title-and-description{
+    align-self: right;
 }
 
 .left-game-title, .right-game-title{
     font-size: 48px;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.left-game-title{
+    text-align: left;
+}
+
+.right-game-title{
+    text-align: right;
 }
 
 .left-game-description, .right-game-description{
     font-size: 24px;
+    margin-top: 0;
+    text-align: justify;
+}
+
+.dev-page{
+    position: relative;
+    top: 100vh;
 }
