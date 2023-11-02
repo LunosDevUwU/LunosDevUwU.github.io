@@ -168,13 +168,23 @@
         <div class="about-me">
             <div class="about-me-title-and-description">
                 <h2 class="about-me-title"><span class="blue">ABOUT</span> <span class="red">ME</span></h2>
-                <p class="about-me-description">asdasd</p>
+                <p class="about-me-description">
+                    Hi, I guess it's time to present myself. My actual name is Daniel Fernández, but everyone 
+                    calls me Lunos (short for LunosDev) as I prefer to go by that name. Anyway, I'm a video game programmer 
+                    who started learning Unity before even thinking about going to university so I just watched some 
+                    videos and got myself into a GameJam, as having a deadline finally forced me to finish a project 
+                    all the way through. After that, I ended up going to UDIT (previously known as ESNE), a university here 
+                    in Spain, where I live, and I started to learn a lot more about every part of making games, improving 
+                    my coding skills and learning some design and artistic skills along the way. My dream is to eventually 
+                    have my own little company where we could make small indie projects with interesting mechanics, but before 
+                    that, I'll have to learn how other companies do it first before venturing into the entrepreneurial world.
+                </p>
             </div>
             <div class="icons">
-                <a href="">
+                <a href="https://www.linkedin.com/in/daniel-fern%C3%A1ndez-l%C3%B3pez-1a3b1b28b/" target="_blank" rel="external">
                     <i class="fi fi-brands-linkedin"></i>
                 </a>
-                <a href="">
+                <a href="media/documents/CV.pdf" target="_blank" rel="documents">
                     <i class="fi fi-sr-document"></i>
                 </a>
             </div>
@@ -182,13 +192,13 @@
 
         <div class="contact-me">
             <div class="form-container">
-                <form class="form" action="/src/php/sendEmail.php" method="post">
+                <form id="form" class="form" target="hidden_iframe" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSdZoflPBGG7vNsySkzvLJbQc1P3s46xfnqTyoT-lAMi7qklfg/formResponse?usp=sf_link">
                     <span class="heading">Contact me</span>
-                    <input placeholder="Name" type="text" class="input" name="name" required>
-                    <input placeholder="Email" id="mail" type="email" class="input" name="email" required>
-                    <textarea placeholder="I'm all ears" rows="10" cols="30" id="message" name="message" class="textarea" required></textarea>
+                    <input placeholder="Name" type="text" class="input" name="entry.1506950163" id="entry.1506950163" required>
+                    <input placeholder="Email" type="email" class="input" name="entry.221223143" id="entry.221223143" required>
+                    <textarea placeholder="I'm all ears" rows="10" cols="30" id="entry.504919297" name="entry.504919297" class="textarea" required></textarea>
                     <div class="button-container">
-                        <button class="send-button" type="submit">Send</button>
+                        <button class="send-button" onclick="SubmitForm();">Send</button>
                         <div class="reset-button-container">
                             <button id="reset-btn" class="reset-button" type="reset">Reset</button>
                         </div>
@@ -196,6 +206,8 @@
                 </form>
             </div>
         </div>
+
+        <iframe name="hidden_iframe" id="hidden_iframe"></iframe>
     </section>
 </body>
 </html>

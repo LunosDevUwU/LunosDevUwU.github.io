@@ -8,3 +8,10 @@ window.onscroll = function() {
   }
   prevScrollpos = currentScrollPos;
 }
+
+function SubmitForm(){
+  var form = document.getElementById("form");
+  form.submit();
+  window.alert("Your message has been sent successfully :)");
+  form.reset();
+}

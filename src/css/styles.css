@@ -23,6 +23,19 @@
     color: #EA0029;
 }
 
+h2{
+    font-size: 48px;
+    font-weight: normal;
+    text-align: center;
+}
+
+h2 .blue{
+    color: #0093C9;
+}
+h2 .red{
+    color: #EA0029;
+}
+
 a{
     text-decoration: none;
     font-weight: normal;
@@ -185,13 +198,6 @@ video{
     text-align: justify;
 }
 
-.dev-page{
-    position: relative;
-    top: 100vh;
-}
-
-
-
 .form-container {
     max-width: 700px;
     margin: 30px;
@@ -292,3 +298,23 @@ video{
     width: 100%;
     height: 100%;
   }
+
+  #hidden_iframe{
+    display: none;
+  }
+
+  .dev-page{
+    position: relative;
+    top: 100vh;
+}
+
+.dev-page{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.about-me{
+    float: left;
+    margin-right: 250px;
+}
