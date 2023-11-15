@@ -142,7 +142,8 @@ video{
 
 .right-game, .left-game{
     display: flex;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
+    margin-top: 50px;
 }
 
 .right-game{
@@ -201,6 +202,7 @@ video{
 .form-container {
     max-width: 700px;
     margin: 30px;
+    margin-right: 150px;
     background-color: #212121EE;
     padding: 30px;
     border-left: 5px solid #EA0029;
@@ -316,5 +318,36 @@ video{
 
 .about-me{
     float: left;
-    margin-right: 250px;
+    margin-right: 5vw;
+    width: 33vw;
+    margin-left: 10vw;
+    margin-top: 30px;
+    display: flex;
+    flex-flow: column;
+    text-align: justify;
+    align-items: center;
+}
+
+.portrait{
+    width: 15vw;
+    margin-top: 25px;
+}
+
+.portrait-img{
+    width: 100%;
+    height: auto;
+}
+
+.about-me-description{
+    margin-top: 15px;
+}
+
+.icons{
+    margin-top: 25px;
+    font-size: 50px;
+}
+
+.icons>a>i{
+    width: 100%;
+    height: auto;
 }
